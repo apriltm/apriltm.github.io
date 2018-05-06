@@ -1,3 +1,64 @@
+@font-face { font-family: "Sunshine"; src: url('http://static.tumblr.com/5fd89aw/U3vli7rvs/sunshine_in_my_soul.ttf'); }
+@font-face { font-family: "Wendy"; src: url('http://static.tumblr.com/bbzqrao/eObmh3xfn/wendy.ttf'); }
+@font-face {font-family: "Economica"; src: url('http://static.tumblr.com/jtqlgf2/EFzm1d5lh/economica-regular.ttf');} 
+
+
 body {
-	background-color: #00192e;
+	background-color: #ccc;
 }
+
+.container{
+	background-color: #444444;
+	width: 600px;
+	height: 100%;
+	position: fixed;
+	color: #fff;
+	top: 0px;
+	right: 100px;
+	font-family: "Calibri";
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+}
+
+.navi {
+	font-family: "Economica";
+	font-size: 20px;
+	border-bottom: 1px #444444 solid;
+	text-align: center;
+	color: #777777;
+	height: 25px;
+	width: 300px;
+	display: block;
+	padding-top: 4px;
+	padding-left: 4px;
+	letter-spacing: 15px;
+	position: fixed;
+	top: 100px;
+	left:10px;
+
+}
+
+.navi a {
+	font-family: "Economica";
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-left: 10px #444444 solid;
+	color: #777777;
+	display: block;
+	padding-top: 4px;
+	padding-left: 4px;
+	-webkit-transition: all 1.0s ease-in-out;
+	-moz-transition: all 1.0s ease-in-out;
+	-o-transition: all 1.0s ease-in-out;
+	-ms-transition: all 1.0s ease-in-out;
+	transition: all 1.0s ease-in-out;
+
+}
+
+.navi a:hover {
+	border-left: 30px #444444 solid;
+	color: #d8d8d8;
+}
+	
