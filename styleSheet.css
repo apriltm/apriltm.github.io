@@ -4,7 +4,14 @@
 
 
 body {
-	background-color: #ccc;
+	background-color: #000f43;
+}
+
+.header{
+	background-image:url('https://i.imgur.com/aci2oGp.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-position: fixed;
 }
 
 .container{
