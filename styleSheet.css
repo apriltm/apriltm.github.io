@@ -1,6 +1,6 @@
-@font-face { font-family: "Sunshine"; src: url('http://static.tumblr.com/5fd89aw/U3vli7rvs/sunshine_in_my_soul.ttf'); }
+@font-face { font-family: "Sunshine"; src: url('./fonts/Sunshine.ttf'); }
 @font-face { font-family: "Wendy"; src: url('http://static.tumblr.com/bbzqrao/eObmh3xfn/wendy.ttf'); }
-@font-face {font-family: "Economica"; src: url('http://static.tumblr.com/jtqlgf2/EFzm1d5lh/economica-regular.ttf');} 
+@font-face {font-family: "Economica"; src: url('./fonts/Economica-Regular.ttf');} 
 
 
 body {
